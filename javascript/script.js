@@ -146,23 +146,23 @@ let swiperProjects = new Swiper(".projects__container", {
 
 // Scroll Reveal Animation
 
-// ScrollReveal({
-//     reset: true,
-//     distance: '60px',
-//     duration: 2000,
-//     delay: 100
-// });
+ScrollReveal({
+    reset: true,
+    distance: '60px',
+    duration: 2000,
+    delay: 100
+});
 
-// ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', {delay: 500, origin: 'left'});
-// ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn, .swiper-button-next', {delay: 600, origin: 'left'});
-// ScrollReveal().reveal('.home .info .btn, .scroll-down', {delay: 700, origin: 'bottom'});
-// ScrollReveal().reveal('.media-icons i, .swiper-wrapper, .contact-left li', {delay: 500, origin: 'left', interval: 200});
-// ScrollReveal().reveal('.media-icons2 i, footer .group, .swiper-pagination', {delay: 500, origin: 'top', interval: 200});
-// ScrollReveal().reveal('.home-img, .about-img, .swiper-button-prev', {delay: 500, origin: 'left'});
-// ScrollReveal().reveal('.about .description, .contact-right', {delay: 600, origin: 'left'});
-// ScrollReveal().reveal('.about .professional-list li', {delay: 500, origin: 'left', interval: 200});
-// ScrollReveal().reveal('.skills-description h3, .skills-description p, .service-description, .contact-left h2', {delay: 700, origin: 'left'});
-// ScrollReveal().reveal('.service-card, .education, .portfolio', {delay: 800, origin: 'bottom', interval: 200});
+ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', {delay: 500, origin: 'left'});
+ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn, .swiper-button-next', {delay: 600, origin: 'left'});
+ScrollReveal().reveal('.home .info .btn, .scroll-down', {delay: 700, origin: 'bottom'});
+ScrollReveal().reveal('.media-icons i, .swiper-wrapper, .contact-left li', {delay: 500, origin: 'left', interval: 200});
+ScrollReveal().reveal('.media-icons2 i, footer .group, .swiper-pagination', {delay: 500, origin: 'top', interval: 200});
+ScrollReveal().reveal('.home-img, .about-img, .swiper-button-prev', {delay: 500, origin: 'left'});
+ScrollReveal().reveal('.about .description, .contact-right', {delay: 600, origin: 'left'});
+ScrollReveal().reveal('.about .professional-list li', {delay: 500, origin: 'left', interval: 200});
+ScrollReveal().reveal('.skills-description h3, .skills-description p, .service-description, .contact-left h2', {delay: 700, origin: 'left'});
+ScrollReveal().reveal('.service-card, .education, .portfolio', {delay: 800, origin: 'bottom', interval: 200});
 
 
 
