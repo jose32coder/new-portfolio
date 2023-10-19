@@ -1411,7 +1411,7 @@ footer .footer-container{
         align-items: start;
     }
     .home .home-container{
-        transform: scale(1);
+        transform: scale(.9);
         margin-top: 20px;
     }
     .home-container .media-icons2{
