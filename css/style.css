@@ -89,6 +89,9 @@ body{
     min-width: 100vw;
     overflow-x: hidden;
 }
+body.loading {
+    overflow: hidden;  
+}
 a{
     text-decoration: none;
 }
@@ -141,9 +144,10 @@ header, .media-icons, .home .scroll-down{
 .preloader{
     position: fixed;
     z-index: 9999999;
-    height: 100vh;
-    width: 100vw;
-    background: white;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background: var(--body-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,8 +161,8 @@ header, .media-icons, .home .scroll-down{
 }
 
 .loader {
-    --path: #2f3545;
-    --dot: #5628ee;
+    --path: var(--first-color);
+    --dot: var(--second-color);
     --duration: 3s;
     width: 44px;
     height: 44px;
@@ -304,7 +308,6 @@ header{
     top: 0;
     left: 0;
     backdrop-filter: blur(20px);
-    
 }
 header.sticky{
     background: rgba(255, 255, 255, 0.1);
@@ -1128,6 +1131,14 @@ textarea.error{
 
 
 @media screen and (max-width: 1070px){
+
+     /* =================== Preloader =================== */
+
+    .preloader{
+        transform: translateY(-35px);
+    }
+
+
     /* =================== Menu =================== */
     .navigation{
         position: fixed;
@@ -1288,6 +1299,11 @@ footer .footer-container{
         margin: 5rem 0 0 0;
     }
     
+    .preloader{
+        height: 120%;
+        transform: translateY(-150px);
+    }
+
     .section-title-01{
         font-size: 3em;
     }
@@ -1314,7 +1330,7 @@ footer .footer-container{
     position: relative;
 }
 .home-container .home-img{
-    width: 65%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1395,7 +1411,7 @@ footer .footer-container{
         align-items: start;
     }
     .home .home-container{
-        transform: scale(.9);
+        transform: scale(1);
         margin-top: 20px;
     }
     .home-container .media-icons2{
