@@ -16,9 +16,11 @@ const form = document.querySelector('form');
 
 // Preloader
 
+let body = document.querySelector('body')
 let preloader = document.querySelector('#preloader')
 window.addEventListener('load', () =>{
     preloader.classList.add('inactive');
+    body.classList.remove('loading');
 })
 
 
